@@ -17,9 +17,6 @@
 /*Построение сетки*/
 .base_border {
 	border: 1px solid red;
-
-	font-family: "PTSansNarrow";
-	font-weight: bold;
 }
 
 .layout-container {
