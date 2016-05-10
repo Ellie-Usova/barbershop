@@ -1,0 +1,51 @@
+/*http://localhost:56480/livereload.js*/
+
+/*Построение сетки*/
+.base_border {
+	border: 1px solid red;
+}
+
+.layout-container {
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.promo_block {
+	font-size: 0;
+}
+
+.layout-content {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 17px;
+}
+
+.promo_block > .layout-content {
+	max-width: 300px;
+	margin-right: 20px;
+}
+
+.promo_block > .layout-content:last-child {
+	margin-right: 0;
+}
+
+
+.main-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.info_block > .layout-content {
+	width: 400px;
+
+}
+
+
+.contact > .layout-content {
+	width: 400px;
+
+}
