@@ -1,8 +1,25 @@
 /*http://localhost:56480/livereload.js*/
 
+@font-face {
+	font-family: "PTSansNarrow";
+	src: url(../fonts/ptsans/ptsansnarrow.woff),
+			 url(../fonts/ptsans/ptsansnarrow.woff2);
+}
+
+@font-face {
+	font-family: "PTSansNarrow";
+	src: url(../fonts/ptsans/ptsansnarrowbold.woff),
+	 		 url(../fonts/ptsans/ptsansnarrowbold.woff2);
+	font-weight: bold;
+}
+
+
 /*Построение сетки*/
 .base_border {
 	border: 1px solid red;
+
+	font-family: "PTSansNarrow";
+	font-weight: bold;
 }
 
 .layout-container {
