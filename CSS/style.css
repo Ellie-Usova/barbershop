@@ -1,5 +1,7 @@
 /*http://localhost:56480/livereload.js*/
-
+/******************************************************************************
+***********************ПОДКЛЮЧЕНИЕ ШРИФТОВ******************************
+*******************************************************************************/
 @font-face {
 	font-family: "PTSansNarrow";
 	src: url(../fonts/ptsans/ptsansnarrow.woff),
@@ -14,7 +16,32 @@
 }
 
 
-/*Построение сетки*/
+
+
+
+/******************************************************************************
+***********************ОБЩИЕ СВОЙСТВА*************************************
+*******************************************************************************/
+body {
+	font-family: "PTSansNarrow";
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+
+}
+
+
+
+
+
+/******************************************************************************
+***********************ГЛАВНАЯ СТРАНИЦА************************************
+*******************************************************************************/
+
+
+
+/*СЕТКА
+*******************************************************************************/
 .base_border {
 	border: 1px solid red;
 }
@@ -62,4 +89,62 @@
 .contact > .layout-content {
 	width: 400px;
 
+}
+
+/*ОФОРМЛЕНИЕ
+*******************************************************************************/
+
+
+/*Меню*/
+
+header {
+	background-color: #000;
+}
+
+.header-menu {
+	float: left;
+	list-style: none;
+	font-size: 0;
+	padding: 0;
+	width: 780px;
+	margin: 0;
+
+}
+
+.header-menu > li {
+	display: inline-block;
+
+}
+
+.header-menu a,
+.header-autorisation a {
+	display:  block;
+	color: #fff;
+	text-decoration: none;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+	padding-right: 23px;
+	line-height: 20px;
+
+	font-size: 16px;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+
+.header-menu a:hover,
+.header-autorisation a:hover {
+	background-color: gray;
+}
+
+.header-autorisation {
+	float: right;
+
+}
+
+nav::after {
+	content: "";
+	display: block;
+	clear: both;
 }
