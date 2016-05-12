@@ -27,7 +27,7 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: bold;
-
+	background: url("../img/background.jpg") no-repeat 50% 50%;
 }
 
 
@@ -147,4 +147,17 @@ nav::after {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+
+
+
+/*Секция Main*/
+body {
+
+}
+
+.main-logo {
+	padding-top: 60px;
+	padding-left: 10px;
 }
