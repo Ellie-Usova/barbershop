@@ -64,7 +64,7 @@ body {
 }
 
 .main-promo_block > .layout-content {
-	max-width: 300px;
+	max-width: 298px;
 	margin-right: 20px;
 }
 
@@ -174,7 +174,25 @@ nav::after {
 .main-promo_block-content p {
 	font-size: 14px;
 	line-height: 24px;
+	padding-top: 32px;
+	margin: 0px;
 }
+
+.promo_block-faster p{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.promo_block-cool p{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.promo_block-expensive p{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 
 .main-promo_block-content b::after {
 	display: block;
@@ -191,3 +209,6 @@ nav::after {
 
 
 /*Секция Main. Инфоблок*/
+.main-info_block {
+	margin-top: 82px;
+}
