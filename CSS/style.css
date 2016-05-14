@@ -3,17 +3,20 @@
 ***********************ПОДКЛЮЧЕНИЕ ШРИФТОВ******************************
 **************************************************************************/
 @font-face {
-	font-family: "PTSansNarrow";
-	src: url(../fonts/ptsans/ptsansnarrow.woff),
-			 url(../fonts/ptsans/ptsansnarrow.woff2);
+    font-family: 'PTSansNarrow';
+
+    src: url(../fonts/ptsans/ptsansnarrow.woff),
+    url(../fonts/ptsans/ptsansnarrow.woff2);
 }
 
 @font-face {
-	font-family: "PTSansNarrow";
-	src: url(../fonts/ptsans/ptsansnarrowbold.woff),
-	 		 url(../fonts/ptsans/ptsansnarrowbold.woff2);
-	font-weight: bold;
+    font-family: 'PTSansNarrow';
+    font-weight: bold;
+
+    src: url(../fonts/ptsans/ptsansnarrowbold.woff),
+    url(../fonts/ptsans/ptsansnarrowbold.woff2);
 }
+
 
 
 
@@ -23,14 +26,33 @@
 ***********************ОБЩИЕ СВОЙСТВА************************************
 **************************************************************************/
 body {
-	font-family: "PTSansNarrow";
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: bold;
-	background: url("../img/background.jpg") no-repeat 50% 50%;
+    font-family: 'PTSansNarrow';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+
+    background: url('../img/background.jpg') no-repeat 50% 50%;
 }
 
 
+.button {
+    font-size: 14px;
+    line-height: 43px;
+
+    display: inline-block;
+
+    width: 140px;
+    height: 43px;
+    margin: auto;
+
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    background-color: #000;
+}
 
 
 
@@ -47,26 +69,30 @@ body {
 }
 
 .layout-container {
-	max-width: 940px;
-	margin-left: auto;
-	margin-right: auto;
-
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 .promo_block {
 	font-size: 0;
 }
 
 .layout-content {
-	display: inline-block;
-	vertical-align: top;
-	font-size: 17px;
+    font-size: 17px;
+
+    display: inline-block;
+
+    vertical-align: top;
 }
 
+
 .main-promo_block > .layout-content {
-	max-width: 298px;
-	margin-right: 20px;
+    max-width: 298px;
+    margin-right: 20px;
 }
+
 
 .main-promo_block > .layout-content:last-child {
 	margin-right: 0;
@@ -74,21 +100,47 @@ body {
 
 
 .main-logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
-.info_block > .layout-content {
-	width: 400px;
 
+.main-info_block > .layout-content {
+    width: 400px;
+    margin-left: 60px;
+		padding-bottom: 55px;
+}
+
+.info_block-news {
+    float: left;
+
+    width: 400px;
+    margin-left: 60px;
+}
+
+
+.info_block-gallery {
+    float: right;
+
+    width: 400px;
+
+    border: 1px solid red;
+}
+
+
+.main-info_block::after {
+    display: block;
+    clear: both;
+
+    content: '';
 }
 
 
 .contact > .layout-content {
 	width: 400px;
-
 }
 
 /*ОФОРМЛЕНИЕ
@@ -102,14 +154,17 @@ header {
 }
 
 .header-menu {
-	float: left;
-	list-style: none;
-	font-size: 0;
-	padding: 0;
-	width: 780px;
-	margin: 0;
+    font-size: 0;
 
+    float: left;
+
+    width: 780px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
 }
+
 
 .header-menu > li {
 	display: inline-block;
@@ -118,20 +173,23 @@ header {
 
 .header-menu a,
 .header-autorisation a {
-	display:  block;
-	color: #fff;
-	text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
 
-	padding-top: 25px;
-	padding-bottom: 25px;
-	padding-left: 20px;
-	padding-right: 23px;
-	line-height: 20px;
+    display: block;
 
-	font-size: 16px;
-	text-transform: uppercase;
-	vertical-align: top;
+    padding-top: 25px;
+    padding-right: 23px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
 }
+
 
 .header-menu a:hover,
 .header-autorisation a:hover {
@@ -144,10 +202,12 @@ header {
 }
 
 nav::after {
-	content: "";
-	display: block;
-	clear: both;
+    display: block;
+    clear: both;
+
+    content: '';
 }
+
 
 
 
@@ -161,10 +221,12 @@ nav::after {
 }
 
 .main-promo_block {
-	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
-	margin-top: 29px;
+    margin-top: 29px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
 }
 
 .main-promo_block-content b {
@@ -172,43 +234,90 @@ nav::after {
 }
 
 .main-promo_block-content p {
-	font-size: 14px;
-	line-height: 24px;
-	padding-top: 32px;
-	margin: 0px;
+    font-size: 14px;
+    line-height: 24px;
+
+    margin: 0;
+    padding-top: 32px;
 }
 
-.promo_block-faster p{
-	padding-left: 0px;
-	padding-right: 0px;
-}
 
 .promo_block-cool p{
 	padding-left: 7px;
 	padding-right: 7px;
 }
 
-.promo_block-expensive p{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-
 .main-promo_block-content b::after {
-	display: block;
-	content: "";
-	background-color: #fff;
-	width: 20px;
-	height: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	transform: rotate(45deg);
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+    content: '';
+    transform: rotate(45deg);
+
+    background-color: #fff;
 }
+
 
 
 
 /*Секция Main. Инфоблок*/
 .main-info_block {
-	margin-top: 82px;
+    margin-top: 79px;
+
+    background-image: url('../img/background-info_block.jpg');
+}
+
+
+.main-info_block h2 {
+    font-size: 30px;
+
+    margin: 0;
+    padding-top: 53px;
+    padding-left: 20px;
+
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+
+.info_block-news p {
+    margin: 0;
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-left: 20px;
+}
+
+
+.info_block-news .first_new {
+	margin-top: 12px;
+}
+
+.info_block-news a:not(.button) {
+    font-size: 14px;
+    line-height: 24px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+
+.info_block-news time {
+    font-weight: normal;
+
+    padding-top: 10px;
+
+    text-transform: lowercase;
+}
+
+.infoblock-news-button {
+	margin-left: 18px;
+	margin-top: 27px;
 }
