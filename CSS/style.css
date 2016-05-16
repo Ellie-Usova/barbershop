@@ -1,9 +1,19 @@
 /*http://localhost:35729/livereload.js*/
 /**************************************************************************
-***********************ПОДКЛЮЧЕНИЕ ШРИФТОВ******************************
+***********************ПОДКЛЮЧЕНИЕ МОДУЛЕЙ******************************
 **************************************************************************/
 @import "../Blocks/Button/button.css";
+@import "../Blocks/MenuItem/MenuItem.css";
+@import "../Blocks/MenuItem/MenuItem__Link.css";
+@import "../Blocks/MenuItem/MenuItem_Hower.css";
+@import "../Blocks/MenuItemsList/MenuItemsList.css";
 
+
+
+
+/**************************************************************************
+***********************ПОДКЛЮЧЕНИЕ ШРИФТОВ******************************
+**************************************************************************/
 @font-face {
     font-family: 'PTSansNarrow';
 
@@ -136,48 +146,7 @@ header {
 	background-color: #000;
 }
 
-.header-menu {
-    font-size: 0;
 
-    float: left;
-
-    width: 780px;
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
-}
-
-
-.header-menu > li {
-	display: inline-block;
-
-}
-
-.header-menu a,
-.header-autorisation a {
-    font-size: 16px;
-    line-height: 20px;
-
-    display: block;
-
-    padding-top: 25px;
-    padding-right: 23px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-
-    vertical-align: top;
-    text-decoration: none;
-    text-transform: uppercase;
-
-    color: #fff;
-}
-
-
-.header-menu a:hover,
-.header-autorisation a:hover {
-	background-color: gray;
-}
 
 .header-autorisation {
 	float: right;

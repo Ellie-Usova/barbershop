@@ -1,0 +1,5 @@
+/*Наведение указателя на пункт меню*/
+
+.MenuItem_Hover:hover {
+	background-color: gray;
+}

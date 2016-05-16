@@ -1,0 +1,5 @@
+/*Строит элементы li в строку*/
+
+.MenuItem{
+	display: inline-block;
+}

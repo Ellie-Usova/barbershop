@@ -1,0 +1,19 @@
+/*Элемент пункта меню - Ссылка*/
+
+.MenuItem__Link {
+    font-size: 16px;
+    line-height: 20px;
+
+    display: block;
+
+    padding-top: 25px;
+    padding-right: 23px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+}
