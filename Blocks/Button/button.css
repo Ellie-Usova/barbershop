@@ -1,0 +1,19 @@
+/*Блок Кнопка*/
+.button {
+    font-size: 14px;
+    line-height: 43px;
+
+    display: inline-block;
+
+    width: 140px;
+    height: 43px;
+    margin: auto;
+
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    background-color: #000;
+}
