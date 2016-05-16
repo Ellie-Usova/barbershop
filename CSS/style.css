@@ -8,7 +8,8 @@
 @import "../Blocks/MenuItem/MenuItem_Hower.css";
 @import "../Blocks/MenuItemsList/MenuItemsList.css";
 @import "../Blocks/Header/Header.css";
-
+@import "../Blocks/MainMenu/MainMenu__autorisation.css";
+@import "../Blocks/LogotypeBig/l-LogotypeBig.css";
 
 
 
@@ -93,12 +94,7 @@ body {
 }
 
 
-.main-logo {
-    display: block;
 
-    margin-right: auto;
-    margin-left: auto;
-}
 
 
 
@@ -145,10 +141,7 @@ contact-information {
 
 
 
-.header-autorisation {
-	float: right;
 
-}
 
 nav::after {
     display: block;
@@ -162,12 +155,6 @@ nav::after {
 
 
 /*Секция Main. Промоблок*/
-
-
-.main-logo {
-	padding-top: 60px;
-	padding-left: 10px;
-}
 
 .main-promo_block {
     margin-top: 29px;
