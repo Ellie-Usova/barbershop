@@ -7,6 +7,7 @@
 @import "../Blocks/MenuItem/MenuItem__Link.css";
 @import "../Blocks/MenuItem/MenuItem_Hower.css";
 @import "../Blocks/MenuItemsList/MenuItemsList.css";
+@import "../Blocks/Header/Header.css";
 
 
 
@@ -28,7 +29,6 @@
     src: url(../fonts/ptsans/ptsansnarrowbold.woff),
     url(../fonts/ptsans/ptsansnarrowbold.woff2);
 }
-
 
 
 
@@ -142,9 +142,6 @@ contact-information {
 
 /*Меню*/
 
-header {
-	background-color: #000;
-}
 
 
 
