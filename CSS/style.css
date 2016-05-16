@@ -2,14 +2,29 @@
 /**************************************************************************
 ***********************ПОДКЛЮЧЕНИЕ МОДУЛЕЙ******************************
 **************************************************************************/
-@import "../Blocks/Button/button.css";
-@import "../Blocks/MenuItem/MenuItem.css";
-@import "../Blocks/MenuItem/MenuItem__Link.css";
-@import "../Blocks/MenuItem/MenuItem_Hower.css";
-@import "../Blocks/MenuItemsList/MenuItemsList.css";
 @import "../Blocks/Header/Header.css";
-@import "../Blocks/MainMenu/MainMenu__autorisation.css";
-@import "../Blocks/LogotypeBig/l-LogotypeBig.css";
+  @import "../Blocks/MainMenu/l-MainMenu.css";
+    @import "../Blocks/MainMenu/MainMenu__autorisation.css";
+    @import "../Blocks/MenuItemsList/MenuItemsList.css";
+      @import "../Blocks/MenuItem/MenuItem.css";
+        @import "../Blocks/MenuItem/MenuItem__Link.css";
+        @import "../Blocks/MenuItem/MenuItem_Hower.css";
+
+@import "../Blocks/MainContentBox/l-MainContentBox.css";
+  @import "../Blocks/LogotypeBig/l-LogotypeBig.css";
+  @import "../Blocks/PromoBlockBox/l-PromoBlockBox.css";
+  @import "../Blocks/InfoBlockBox/l-InfoBlockBox";
+
+@import "../Blocks/Button/button.css";
+
+@import "../Blocks/Footer/l-FooterContentBox.css";
+
+
+
+
+
+
+
 
 
 
@@ -62,13 +77,6 @@ body {
 .base_border {
 	border: 1px solid red;
 }
-
-.layout-container {
-    max-width: 940px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 
 .promo_block {
 	font-size: 0;
