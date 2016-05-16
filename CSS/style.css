@@ -1,4 +1,4 @@
-/*http://localhost:56480/livereload.js*/
+/*http://localhost:35729/livereload.js*/
 /**************************************************************************
 ***********************ПОДКЛЮЧЕНИЕ ШРИФТОВ******************************
 **************************************************************************/
@@ -108,13 +108,15 @@ body {
 
 
 
-.main-info_block > .layout-content {
+.main-info_block > .layout-content,
+.contact > .layout-content {
     width: 400px;
     margin-left: 60px;
 		padding-bottom: 55px;
 }
 
-.info_block-news {
+.info_block-news,
+contact-information {
     float: left;
 
     width: 400px;
@@ -122,25 +124,22 @@ body {
 }
 
 
-.info_block-gallery {
+.info_block-gallery,
+.contact-enroll {
     float: right;
 
     width: 400px;
-
-    border: 1px solid red;
 }
 
 
-.main-info_block::after {
+.main-info_block::after,
+.contact::after {
     display: block;
     clear: both;
 
+    border: 10px solid red;
+
     content: '';
-}
-
-
-.contact > .layout-content {
-	width: 400px;
 }
 
 /*ОФОРМЛЕНИЕ
@@ -285,6 +284,7 @@ nav::after {
     color: #000;
 }
 
+/*Секция Main. Инфоблок - Новости*/
 
 .info_block-news p {
     margin: 0;
@@ -320,4 +320,83 @@ nav::after {
 .infoblock-news-button {
 	margin-left: 18px;
 	margin-top: 27px;
+}
+
+.info_block-gallery::before {
+  float: left;
+  margin-top: 70px;
+  margin-left: -75px;
+  content: "";
+  width: 8px;
+  height: 278px;
+  padding: 0;
+  background-image: url(../img/separator.png);
+  background-repeat: no-repeat;
+}
+
+/*Секция Main. Инфоблок - Фотогалерея*/
+.info_block-gallery img {
+  margin-left: 20px;
+  margin-top: 40px;
+
+  border: 7px solid #fff;
+}
+
+.info_block-gallery h2 {
+  padding-left: 25px;
+}
+
+.info_block-gallery button{
+  margin-left: 21px;
+  margin-top: 32px;
+  margin-right: 0;
+}
+
+.info_block-gallery button:last-child{
+  margin-left: 17px;
+}
+
+
+/*Секция Main. Контакты*/
+
+.contact {
+    margin-top: 34px;
+
+    background-image: url('../img/background-info_block.jpg');
+}
+
+.contact h2 {
+    font-size: 30px;
+
+    margin: 0;
+    padding-top: 53px;
+    padding-left: 20px;
+
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+.contact p {
+    margin-top: 14px;
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    line-height: 24px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+.contact-information p:nth-child(3) {
+    margin-top: -11px;
+}
+
+.contact-information-button {
+  margin-left: 18px;
+  margin-top: 32px;
 }
