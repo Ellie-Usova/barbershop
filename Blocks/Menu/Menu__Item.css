@@ -1,5 +1,5 @@
 /*Строит элементы li в строку*/
 
-.MenuItem{
+.Menu__Item{
 	display: inline-block;
 }

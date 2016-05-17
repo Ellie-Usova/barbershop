@@ -3,15 +3,15 @@
 ***********************ПОДКЛЮЧЕНИЕ МОДУЛЕЙ******************************
 **************************************************************************/
 @import "../Blocks/Header/Header.css";
-  @import "../Blocks/MainMenu/l-MainMenu.css";
-    @import "../Blocks/MainMenu/MainMenu__autorisation.css";
-    @import "../Blocks/MenuItemsList/MenuItemsList.css";
-      @import "../Blocks/MenuItem/MenuItem.css";
-        @import "../Blocks/MenuItem/MenuItem__Link.css";
-        @import "../Blocks/MenuItem/MenuItem_Hower.css";
+  @import "../Blocks/Menu/l-Menu.css";
+    @import "../Blocks/Menu/Menu__autorisation.css";
+    @import "../Blocks/Menu/Menu__ItemsList.css";
+      @import "../Blocks/Menu/Menu__Item.css";
+        @import "../Blocks/Menu/Menu__Link.css";
+        @import "../Blocks/Menu/Menu__Link_Hower.css";
 
 @import "../Blocks/MainContentBox/l-MainContentBox.css";
-  @import "../Blocks/LogotypeBig/l-LogotypeBig.css";
+  @import "../Blocks/MainContentBox/MainContentBox__LogotypeBig.css";
   @import "../Blocks/PromoBlockBox/l-PromoBlockBox.css";
   @import "../Blocks/InfoBlockBox/l-InfoBlockBox";
 

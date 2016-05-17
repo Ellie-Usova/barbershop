@@ -1,5 +1,5 @@
 /*Наведение указателя на пункт меню*/
 
-.MenuItem_Hover:hover {
+.Menu__Link_Hower:hover {
 	background-color: gray;
 }
