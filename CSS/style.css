@@ -30,9 +30,6 @@
 
 
 
-
-
-
 /**************************************************************************
 ***********************ПОДКЛЮЧЕНИЕ ШРИФТОВ******************************
 **************************************************************************/
@@ -83,10 +80,6 @@ body {
 	border: 1px solid red;
 }
 
-.promo_block {
-	font-size: 0;
-}
-
 .layout-content {
     font-size: 17px;
 
@@ -94,22 +87,6 @@ body {
 
     vertical-align: top;
 }
-
-
-.main-promo_block > .layout-content {
-    max-width: 298px;
-    margin-right: 20px;
-}
-
-
-.main-promo_block > .layout-content:last-child {
-	margin-right: 0;
-}
-
-
-
-
-
 
 .main-info_block > .layout-content,
 .contact > .layout-content {
@@ -147,37 +124,6 @@ contact-information {
 
 /*ОФОРМЛЕНИЕ
 **************************************************************************/
-
-
-/*Меню*/
-
-
-
-
-
-
-nav::after {
-    display: block;
-    clear: both;
-
-    content: '';
-}
-
-
-
-
-
-/*Секция Main. Промоблок*/
-
-
-.promo_block-cool p{
-	padding-left: 7px;
-	padding-right: 7px;
-}
-
-
-
-
 
 
 /*Секция Main. Инфоблок*/
