@@ -1,0 +1,14 @@
+.PromoBlockContent__Separator::after {
+      display: block;
+
+      width: 20px;
+      height: 20px;
+      margin-top: 20px;
+      margin-right: auto;
+      margin-left: auto;
+
+      content: '';
+      transform: rotate(45deg);
+
+      background-color: #fff;
+}

@@ -1,0 +1,14 @@
+.PromoBlockContent {
+  font-size: 14px;
+
+  display: inline-block;
+
+  vertical-align: top;
+
+  max-width: 298px;
+  margin-right: 20px;
+}
+
+.PromoBlockContent:last-child {
+  margin-right: 0;
+}

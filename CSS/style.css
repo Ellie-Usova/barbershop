@@ -12,8 +12,13 @@
 
 @import "../Blocks/MainContentBox/l-MainContentBox.css";
   @import "../Blocks/MainContentBox/MainContentBox__LogotypeBig.css";
+
   @import "../Blocks/PromoBlockBox/l-PromoBlockBox.css";
   @import "../Blocks/InfoBlockBox/l-InfoBlockBox";
+  @import "../Blocks/PromoBlockBox/PromoBlockContent.css";
+    @import "../Blocks/PromoBlockBox/PromoBlockContent__Header.css";
+    @import "../Blocks/PromoBlockBox/PromoBlockContent__Separator.css";
+    @import "../Blocks/PromoBlockBox/PromoBlockContent__Paragraph.css";
 
 @import "../Blocks/Button/button.css";
 
@@ -164,47 +169,13 @@ nav::after {
 
 /*Секция Main. Промоблок*/
 
-.main-promo_block {
-    margin-top: 29px;
-
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #fff;
-}
-
-.main-promo_block-content b {
-	font-size: 30px;
-}
-
-.main-promo_block-content p {
-    font-size: 14px;
-    line-height: 24px;
-
-    margin: 0;
-    padding-top: 32px;
-}
-
 
 .promo_block-cool p{
 	padding-left: 7px;
 	padding-right: 7px;
 }
 
-.main-promo_block-content b::after {
-    display: block;
 
-    width: 20px;
-    height: 20px;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-
-    content: '';
-    transform: rotate(45deg);
-
-    background-color: #fff;
-}
 
 
 
