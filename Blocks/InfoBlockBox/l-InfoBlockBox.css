@@ -1,0 +1,17 @@
+.l-InfoBlockBox {
+  font-size: 14px;
+
+  display: block;
+
+  vertical-align: top;
+
+  margin-top: 79px;
+
+  background-image: url('../img/background-info_block.jpg');
+}
+
+.l-InfoBlockBox::after {
+    display: block;
+    clear: both;
+    content: "";
+}

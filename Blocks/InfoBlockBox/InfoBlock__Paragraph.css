@@ -1,0 +1,14 @@
+.InfoBlock__Paragraph {
+  margin-top: 14px;
+  padding-top: 20px;
+  padding-right: 70px;
+  padding-left: 20px;
+
+  font-size: 14px;
+  line-height: 24px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #000;
+}

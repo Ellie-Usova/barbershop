@@ -1,7 +1,0 @@
-.l-InfoBlockBox {
-  font-size: 14px;
-
-  display: inline-block;
-
-  vertical-align: top;
-}
